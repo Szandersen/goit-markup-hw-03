@@ -11,12 +11,19 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-
+.container {
+    width: 1200px;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .top-header {
+    display: flex;
+    margin: 0px;
+    border-bottom: #ECECEC;
     width: 1600px;
     height: 80px;
-    display: flex;
-    text-indent: 215px;
 }
 
 .logo-black {
@@ -37,6 +44,12 @@ body {
 }
 .navigation-list {
     list-style: none;
+    display: flex;
+    gap: 46px;
+    padding-left: 0px;
+    padding-top: 32px;
+    padding-right: 371px;
+    padding-bottom: 32px;
 }
 .navigation-list-item {
     color: var(--grey-background);
@@ -62,6 +75,8 @@ body {
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
+    padding: 200px 452px 280px;
+    
 }
 .service button {
     color: var(--white-background);
@@ -103,6 +118,13 @@ body {
 }
 .contact-list {
     list-style: none;
+    display:flex;
+    gap: 50px;
+    padding-left: 0px;
+    padding-top: 32px;
+    padding-right: 227px;
+    padding-bottom: 32px;
+
 }
 .contact-item {
     color: var(--light-grey);
@@ -119,9 +141,11 @@ body {
 
 .articles-list {
     list-style: none;
-    text-align: center;
+    text-align: justify;
     gap: 30px;
     letter-spacing: 0.03em;
+    display: flex;
+    margin: 0px;
 }
 .articles-list h4 {
     color: var(--grey-background);
@@ -138,10 +162,12 @@ body {
     list-style: none;
     gap: 30px;
     white-space: pre-wrap;
+    display: flex;
 }
 .team-list {
     list-style: none;
     gap: 30px;
+    display: flex;
 }
 .team-list li {
     background: var(--white-background);
