@@ -51,7 +51,7 @@ body {
     padding-right: 371px;
     padding-bottom: 32px;
 }
-.navigation-list-item {
+.navigation-list a {
     color: var(--grey-background);
     text-decoration: none;
     font-weight: 500;
@@ -59,8 +59,8 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.navigation-list-item:hover,
-.navigation-list-item:focus {
+.navigation-list a:hover,
+.navigation-list a:focus {
     color: var(--blue-text);
     cursor: pointer;
 }
