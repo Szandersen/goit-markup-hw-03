@@ -20,10 +20,12 @@ body {
 }
 .top-header {
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin: 0px;
     border-bottom: #ECECEC;
-    width: 1600px;
-    height: 80px;
+    max-width: 1600px;
+    max-height: 80px;
 }
 
 .logo-black {
@@ -46,10 +48,6 @@ body {
     list-style: none;
     display: flex;
     gap: 46px;
-    padding-left: 0px;
-    padding-top: 32px;
-    padding-right: 371px;
-    padding-bottom: 32px;
 }
 .navigation-list a {
     color: var(--grey-background);
@@ -120,10 +118,6 @@ body {
     list-style: none;
     display:flex;
     gap: 50px;
-    padding-left: 0px;
-    padding-top: 32px;
-    padding-right: 227px;
-    padding-bottom: 32px;
 
 }
 .contact-item {
