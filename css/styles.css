@@ -210,6 +210,7 @@ h2 {
     display: flex;
 }
 .team-list {
+    background: #f5f4fa;
     list-style: none;
     gap: 30px;
     display: flex;
@@ -234,6 +235,11 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     padding: 0px;
+}
+.img-section-list li {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .img-item {
     flex-basis: calc((100% - 10px) / 3);
